@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: Helvetica;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -17,19 +17,24 @@ h1 {
 
 .row {
   width: 100%;
+  padding: 0 15px 0 15px;
 }
 
-section {
+.section {
   border: 2px solid #000;
   background-color: #dbdecb;
   padding: 10px;
   padding-top: 35px;
+  margin: 0 5px 10px 5px;
+}
+
+section {
   position: relative;
 }
 
 section h2 {
-  top: 0;
-  right: 0;
+  top: 2px;
+  right: 7px;
   width: 35%;
   font-size: 18px;
   text-align: center;
